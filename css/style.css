@@ -1,81 +1,59 @@
 body {
-  background-color: #f4f5f7;
   font-family: 'Montserrat', sans-serif;
+  background-color: #f4f7f6;
 }
 
-.ticket-card {
-  max-width: 780px;
-  border-radius: 20px !important;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  border: none !important;
+.train-card {
+  border-radius: 16px;
   overflow: hidden;
-  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
 }
 
-.card-header {
-  background-color: #0F6B5F !important;
+.train-header {
+  background-color: #0F6B5F;
 }
 
-.trip-type-toggle {
-  background-color: #E6EFEC;
-  border: 1px solid #d0e0db;
-}
-
-.btn-trip {
-  border: none;
-  color: #0F6B5F;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.btn-check:checked + .btn-trip {
-  background-color: #0F6B5F !important;
-  color: #ffffff !important;
-}
-
-.custom-input {
-  background-color: #F4F7F5 !important;
-  border: 1px solid #E6EFEC !important;
-  border-radius: 8px !important;
-  padding: 0.6rem 0.9rem;
-}
-
-.custom-input:focus {
-  box-shadow: 0 0 0 0.25rem rgba(15, 107, 95, 0.2) !important;
-  border-color: #0F6B5F !important;
-}
-
-.bg-theme {
-  background-color: #0F6B5F !important;
-  border-top-left-radius: 8px !important;
-  border-bottom-left-radius: 8px !important;
-}
-
-.form-check-input:checked {
-  background-color: #0F6B5F !important;
-  border-color: #0F6B5F !important;
-}
-
-.btn-find {
-  background-color: #F2A93B !important;
-  color: #ffffff !important;
-  font-weight: 600;
-  border-radius: 20px !important;
-  border: none;
-}
-
-.btn-find:hover {
-  background-color: #e09828 !important;
+.trip-toggle {
+  background-color: #f1f3f5;
+  padding: 4px;
+  border-radius: 50rem;
 }
 
 .btn-outline-custom {
-  border: 1px solid #16302B !important;
-  color: #16302B !important;
-  font-weight: 600;
-  border-radius: 20px !important;
+  border: none;
+  color: #495057;
+  font-weight: 500;
+  border-radius: 50rem;
+  padding: 8px 24px;
 }
 
-.btn-outline-custom:hover {
-  background-color: #16302B !important;
-  color: #ffffff !important;
+.btn-check:checked + .btn-outline-custom {
+  background-color: #0F6B5F;
+  color: #fff;
+}
+
+.custom-input {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.custom-input:focus {
+  background-color: #fff;
+  border-color: #0F6B5F;
+  box-shadow: 0 0 0 0.25rem rgba(15, 107, 95, 0.15);
+}
+
+.custom-submit-btn {
+  background-color: #F2A93B;
+  border: none;
+}
+
+.custom-submit-btn:hover {
+  background-color: #e0992e;
+}
+
+.custom-clear-btn {
+  border-color: #ced4da;
 }
